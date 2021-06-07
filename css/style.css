@@ -1,6 +1,67 @@
+/* General*/
+
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;
     font-family: 'Open Sans', sans-serif;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Nav*/
+
+nav{
+    height: 80px;
+    line-height: 80px;
+}
+
+nav .nav-list{
+    display: inline-block;
+}
+
+nav .nav-list ul{
+    list-style-type: none;
+}
+
+nav .nav-list ul li{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+nav .nav-list ul:first-child li{
+    margin-right: 20px;
+}
+
+nav .nav-list ul:last-child li{
+    margin-left: 20px;
+}
+
+nav .nav-list ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav .nav-list:first-child ul li:first-child{
+    vertical-align: middle;
+}
+
+nav .nav-list:last-child{
+    float: right;
+}
+
+.blue-btn{
+    color: white;
+    padding: 5px 15px;
+    background-color: rgb(0, 97, 255);
+}
+
+nav .nav-list:last-child ul:last-child li:last-child a:last-child{
+    color:white;
+}
+
