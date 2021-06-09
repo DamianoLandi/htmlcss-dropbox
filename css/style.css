@@ -303,3 +303,39 @@ section:first-child .last-ftt .last-ftt-content .blue-btn{
     top: 20px;
     right: 20px;
 }
+
+/* Main Second Section */
+
+section:nth-of-type(2){
+    margin-top: 150px;
+}
+
+section:nth-of-type(2) .col{
+    width: 50%;
+    float: left;
+}
+
+section:nth-of-type(2) .col img{
+    width: 100%;
+}
+
+section:nth-of-type(2) .col:last-child{
+    padding: 40px;
+    line-height: 30px;
+}
+
+section:nth-of-type(2) .col:last-child h3{
+    font-size: 30px;
+}
+
+section:nth-of-type(2) .col:last-child p{
+    margin: 50px 0;
+    font-size: 20px;
+}
+
+section:nth-of-type(2) .col:last-child a{
+    display: inline-block;
+    color:black;
+    padding: 5px 30px;
+    border: 1px solid black;
+}
