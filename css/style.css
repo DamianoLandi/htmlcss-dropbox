@@ -180,7 +180,7 @@ main{
 
 /* Main First Section */
 
-section:first-child h2{
+section:first-child > h2{
     font-size: 50px;
     padding-bottom: 50px;
 }
@@ -208,6 +208,7 @@ section:first-child > span{
 
 section:first-child .row{
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 section:first-child .row .col{
@@ -227,11 +228,11 @@ section:first-child .row .col:last-of-type{
     padding-left: 20px;
 }
 
-section:first-child .row .col .box-ftt{
+section:first-child .row .col .box-ftt, section:first-child .last-ftt{
     border: 1px solid rgb(208, 208, 211);
 }
 
-section:first-child .row .col .box-ftt .ftt-header{
+section:first-child .ftt-header{
     text-align: center;
     line-height: 40px;
     border-bottom: 1px solid rgb(208, 208, 211);
@@ -280,4 +281,25 @@ section:first-child .row .col .box-ftt .ftt-content hr{
     border-color: rgb(208, 208, 211);
     width: 30px;
     margin-bottom: 70px;
+}
+
+section:first-child .last-ftt .last-ftt-content{
+    padding:30px;
+    position: relative;
+}
+
+section:first-child .last-ftt .last-ftt-content h2{
+   padding-bottom: 20px;
+   font-size: 30px;
+}
+
+section:first-child .last-ftt .last-ftt-content p{
+    padding-top: 20px;
+}
+
+section:first-child .last-ftt .last-ftt-content .blue-btn{
+    padding: 5px 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
