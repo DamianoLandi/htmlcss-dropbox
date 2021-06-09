@@ -54,7 +54,12 @@ ul{
 
 nav{
     height: 80px;
+    width: 100vw;
     line-height: 80px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    padding-right: 20px;
 }
 
 nav .nav-list{
