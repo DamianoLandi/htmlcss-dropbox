@@ -339,3 +339,49 @@ section:nth-of-type(2) .col:last-child a{
     padding: 5px 30px;
     border: 1px solid black;
 }
+
+/* Main Third Section */
+
+section:nth-of-type(3){
+    margin-top: 150px;
+}
+
+section:nth-of-type(3) h2{
+    font-size: 50px;
+}
+
+section:nth-of-type(3) .row{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+section:nth-of-type(3) .row .col{
+    width: 33%;
+    float: left;
+}
+
+section:nth-of-type(3) .row .col:first-of-type{
+    padding-right: 20px;
+}
+
+section:nth-of-type(3) .row .col:nth-of-type(2){
+    padding:0 10px;
+}
+
+section:nth-of-type(3) .row .col:last-of-type{
+    padding-left: 20px;
+}
+
+section:nth-of-type(3) .row .col img{
+    width: 100%;
+}
+
+section:nth-of-type(3) .row .col h3{
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+section:nth-of-type(3) .row .col p .underline{
+    text-decoration: underline;
+}
